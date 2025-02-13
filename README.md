@@ -10,6 +10,8 @@ Uses [lush.nvim](https://github.com/rktjmp/lush.nvim/) for theme creation with c
 
 Tries to support plugins that I use, which is why there are sections for telescope, which-key, and mini.indentscope, but if it doesn't play nicely with any other plugins then please feel free to create an issue/PR.
 
+Also uses italics for some highlight groups, so there's that :)
+
 ## Installation
 
 ### Lazy:
