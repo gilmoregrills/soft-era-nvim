@@ -2,11 +2,11 @@
 
 ### syntax theme for [Neovim](https://www.neovim.io/)
 
-🌸 Light pastel syntax theme, ported from [ soft-era-vim ](https://github.com/soft-aesthetic/soft-era-vim) 🌱
+🌸 Light pastel syntax theme matching the others at [soft-era](https://github.com/soft-aesthetic/soft-era), ported from [ soft-era-vim ](https://github.com/soft-aesthetic/soft-era-vim) 🌱
 
 ![soft era syntax theme screenshot](screenshot.png)
 
-Uses [lush.nvim](https://github.com/rktjmp/lush.nvim/) for theme creation with colours copied from soft-era-vim and the [ soft-era-vscode ](https://github.com/soft-aesthetic/soft-era-vs-code).
+Uses [lush.nvim](https://github.com/rktjmp/lush.nvim/) for theme creation with colours copied from [ soft-era-vim ](https://github.com/soft-aesthetic/soft-era-vim) and [ soft-era-vscode ](https://github.com/soft-aesthetic/soft-era-vs-code).
 
 Tries to support plugins that I use, which is why there are sections for telescope, which-key, and mini.indentscope, but if it doesn't play nicely with any other plugins then please feel free to create an issue/PR.
 
