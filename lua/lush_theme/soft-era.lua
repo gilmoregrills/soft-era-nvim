@@ -89,9 +89,9 @@ local theme = lush(function(injected_functions)
 		-- ported from soft-era-vim
 		-- BASE UI
 		Conceal({ fg = debug1, bg = debug2 }),
-		Cursor({ fg = cursor, bg = salmon }),
+		Cursor({ fg = background, bg = cursor, ctermbg = cursor }),
 		CursorIM({ fg = debug1, bg = debug2 }),
-		CursorColumn({ bg = backgroundDarker }),
+		CursorColumn({ fg = background, bg = cursor, ctermbg = cursor }),
 		Directory({ fg = greenFaded }),
 		DiffAdd({ bg = greenFaded }),
 		DiffChange({ bg = yellow }),

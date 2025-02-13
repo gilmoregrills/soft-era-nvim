@@ -1,5 +1,11 @@
-A Lush Theme for Neovim.
-===
+# \~ soft era \~
 
-See: http://git.io/lush.nvim for more information on Lush and a helper script
-to setup your repo clone.
+### syntax theme for [Neovim](https://www.neovim.io/)
+
+🌸 Light pastel syntax theme, ported from [ soft-era-vim ](https://github.com/soft-aesthetic/soft-era-vim) 🌱
+
+![soft era syntax theme screenshot](screenshot.png)
+
+Uses [lush.nvim](https://github.com/rktjmp/lush.nvim/) for theme creation with colours copied from soft-era-vim and the [ soft-era-vscode ](https://github.com/soft-aesthetic/soft-era-vs-code).
+
+## Installation guide (WIP !!)
