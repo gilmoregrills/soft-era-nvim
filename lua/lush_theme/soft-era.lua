@@ -104,7 +104,7 @@ local theme = lush(function(injected_functions)
 		ColorColumn({ bg = backgroundDarker }),
 		CursorLine({ bg = backgroundDarker }),
 		CursorLineNr({ fg = purpleDarker }),
-		SignColumn({ fg = debug1, bg = debug2 }),
+		SignColumn({ bg = background }),
 		IncSearch({ gui = "underline", bg = salmon }),
 		LineNr({ fg = textFaded }),
 		MatchParen({ fg = blue, gui = "bold" }),
@@ -118,7 +118,7 @@ local theme = lush(function(injected_functions)
 		PmenuSbar({ fg = debug1, bg = debug2 }),
 		PmenuThumb({ fg = debug1, bg = debug2 }),
 		Question({ fg = debug2 }),
-		Search({ gui = "underline", bg = textFaded }),
+		Search({ gui = "underline", bg = salmon }),
 		SpecialKey({ fg = red, bg = background }),
 		SpellBad({ fg = red, cterm = "underline", gui = "underline" }),
 		SpellLocal({ fg = debug1, bg = debug2 }),
@@ -149,6 +149,11 @@ local theme = lush(function(injected_functions)
 
 		-- mini.indentscope
 		MiniIndentscopeSymbol({ fg = purpleDefault }),
+
+		-- trouble
+		TroubleNormal({ fg = purpleDefault, bg = background }),
+		TroubleNormalNC({ fg = purpleDefault, bg = background }),
+		TroubleText({ fg = purpleDefault }),
 
 		-- BASE SYNTAX
 		Comment({ fg = textFaded, cterm = "italic", gui = "italic" }),
