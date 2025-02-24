@@ -45,9 +45,9 @@
 local lush = require("lush")
 local hsl = lush.hsl
 
-local background = hsl("#f9f5f5")
-local backgroundDarker = hsl("#f2edec")
-local backgroundLighter = hsl("#fbf8f8")
+local background = hsl("#fbf8f8")
+local backgroundDarker = hsl("#f9f5f5")
+local backgroundDarkest = hsl("#f2edec")
 local cursor = hsl("#f6e3e7")
 local blue = hsl("#82b4e3")
 local green = hsl("#25b7b8")
