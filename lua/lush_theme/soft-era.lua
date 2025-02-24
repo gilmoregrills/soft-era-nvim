@@ -131,8 +131,11 @@ local theme = lush(function(injected_functions)
 		VisualNOS({ fg = redFaded, bg = purpleLight }),
 		WarningMsg({ fg = redFaded, bg = background }),
 		WildMenu({ fg = debug1, bg = debug2 }),
-		FloatBorder({ bg = backgroundDarker, guibg = background }),
-		NormalFloat({ fg = salmon, bg = salmon }),
+
+		-- neo-tree
+		NeoTreeFloatBorder({ bg = backgroundDarkest }),
+		NeoTreeNormal({ fg = purpleDefault, bg = background }),
+		-- NeoTreeTitleBar({ fg = salmon, bg = salmon }),
 
 		-- telescope
 		TelescopeBorder({ fg = salmon, bg = background }),
@@ -154,6 +157,9 @@ local theme = lush(function(injected_functions)
 		TroubleNormal({ fg = purpleDefault, bg = background }),
 		TroubleNormalNC({ fg = purpleDefault, bg = background }),
 		TroubleText({ fg = purpleDefault }),
+
+		-- Lazy.nvim
+		-- TODO: sort out lazy.nvim float window coloring
 
 		-- BASE SYNTAX
 		Comment({ fg = textFaded, cterm = "italic", gui = "italic" }),
