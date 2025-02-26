@@ -24,7 +24,6 @@ highlight Error guifg=#DD698C guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight ErrorMsg guifg=#DD698C guibg=NONE guisp=NONE blend=NONE gui=reverse
 highlight Exception guifg=#82B4E3 guibg=NONE guisp=NONE blend=NONE gui=italic
 highlight Float guifg=#82B4E3 guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight FloatBorder guifg=NONE guibg=#F9F5F5 guisp=NONE blend=NONE gui=NONE
 highlight FoldColumn guifg=#FF0000 guibg=#00FF00 guisp=NONE blend=NONE gui=NONE
 highlight Folded guifg=#E2D0D0 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Function guifg=#97C3B9 guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -41,8 +40,9 @@ highlight Method guifg=#97C3B9 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight MiniIndentscopeSymbol guifg=#CEC8F4 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight ModeMsg guifg=#DB8FA6 guibg=#FBF9F9 guisp=NONE blend=NONE gui=NONE
 highlight MoreMsg guifg=#DB8FA6 guibg=#ECEAFA guisp=NONE blend=NONE gui=NONE
+highlight NeoTreeFloatBorder guifg=NONE guibg=#F3EEED guisp=NONE blend=NONE gui=NONE
+highlight NeoTreeNormal guifg=#CEC8F4 guibg=#FBF9F9 guisp=NONE blend=NONE gui=NONE
 highlight NonText guifg=#948484 guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight NormalFloat guifg=#EEAABE guibg=#EEAABE guisp=NONE blend=NONE gui=NONE
 highlight NormalNC guifg=NONE guibg=#FBF9F9 guisp=NONE blend=NONE gui=NONE
 highlight Number guifg=#82B4E3 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Operator guifg=#EC55B2 guibg=NONE guisp=NONE blend=NONE gui=NONE
