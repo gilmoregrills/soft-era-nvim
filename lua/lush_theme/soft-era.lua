@@ -98,6 +98,7 @@ local theme = lush(function(injected_functions)
 		DiffDelete({ bg = redFaded }),
 		DiffText({ gui = "reverse" }),
 		ErrorMsg({ gui = "reverse", fg = red }),
+		-- ErrorMsg({ fg = red }),
 		VertSplit({ fg = background, bg = background }),
 		Folded({ fg = textFaded }),
 		FoldColumn({ fg = debug1, bg = debug2 }),
@@ -105,9 +106,10 @@ local theme = lush(function(injected_functions)
 		CursorLine({ bg = backgroundDarker }),
 		CursorLineNr({ fg = purpleDarker }),
 		SignColumn({ bg = background }),
-		IncSearch({ gui = "underline", bg = salmon }),
+		-- IncSearch({ gui = "underline", bg = salmon }),
+		IncSearch({ bg = salmon }),
 		LineNr({ fg = textFaded }),
-		MatchParen({ fg = blue, gui = "bold" }),
+		MatchParen({ fg = blue }),
 		ModeMsg({ fg = redFaded, bg = background }),
 		MoreMsg({ fg = redFaded, bg = purpleLight }),
 		NonText({ fg = textEmphasis }),
@@ -118,7 +120,8 @@ local theme = lush(function(injected_functions)
 		PmenuSbar({ fg = debug1, bg = debug2 }),
 		PmenuThumb({ fg = debug1, bg = debug2 }),
 		Question({ fg = debug2 }),
-		Search({ gui = "underline", bg = salmon }),
+		-- Search({ gui = "underline", bg = salmon }),
+		Search({ bg = salmon }),
 		SpecialKey({ fg = red, bg = background }),
 		SpellBad({ fg = red, cterm = "underline", gui = "underline" }),
 		SpellLocal({ fg = debug1, bg = debug2 }),
@@ -131,9 +134,11 @@ local theme = lush(function(injected_functions)
 		VisualNOS({ fg = redFaded, bg = purpleLight }),
 		WarningMsg({ fg = redFaded, bg = background }),
 		WildMenu({ fg = debug1, bg = debug2 }),
+		FloatBorder({ fg = purpleDefault, bg = background }),
+		NormalFloat({ fg = Normal.fg, bg = Normal.bg }),
 
 		-- neo-tree
-		NeoTreeFloatBorder({ bg = backgroundDarkest }),
+		NeoTreeFloatBorder({ bg = background }),
 		NeoTreeNormal({ fg = purpleDefault, bg = background }),
 		-- NeoTreeTitleBar({ fg = salmon, bg = salmon }),
 
@@ -160,6 +165,10 @@ local theme = lush(function(injected_functions)
 
 		-- Lazy.nvim
 		-- TODO: sort out lazy.nvim float window coloring
+		LazyBold({ fg = purpleDefault, bg = background, bold = false }),
+		LazyH2({ fg = purpleDefault, bg = background, bold = false }),
+
+		-- FTerm
 
 		-- BASE SYNTAX
 		Comment({ fg = textFaded, cterm = "italic", gui = "italic" }),
@@ -174,10 +183,14 @@ local theme = lush(function(injected_functions)
 		Parameter({ fg = purpleDefault }),
 		Function({ fg = greenFaded }),
 		Method(Function),
-		Statement({ fg = blue, cterm = "bold", gui = "bold" }),
-		Conditional({ fg = blue, cterm = "bold", gui = "bold" }),
-		Repeat({ fg = blue, cterm = "bold", gui = "bold" }),
-		Label({ fg = blue, cterm = "bold", gui = "bold" }),
+		-- Statement({ fg = blue, cterm = "bold", gui = "bold" }),
+		Statement({ fg = blue }),
+		-- Conditional({ fg = blue, cterm = "bold", gui = "bold" }),
+		Conditional({ fg = blue }),
+		-- Repeat({ fg = blue, cterm = "bold", gui = "bold" }),
+		Repeat({ fg = blue }),
+		-- Label({ fg = blue, cterm = "bold", gui = "bold" }),
+		Label({ fg = blue }),
 		Operator({ fg = hotPink }),
 		Keyword({ fg = purpleDarkest, cterm = "italic", gui = "italic" }),
 		Exception({ fg = blue, cterm = "italic", gui = "italic" }),
@@ -200,7 +213,7 @@ local theme = lush(function(injected_functions)
 		Underlined({ gui = "underline" }),
 		Ignore({ fg = textDark }),
 		Error({ fg = red }),
-		Todo({ fg = redFaded, gui = "bold" }),
+		Todo({ fg = redFaded }),
 
 		-- treesitter highlight group definitions
 		sym("@variable")({ fg = purpleDefault }),
