@@ -75,8 +75,8 @@ highlight StatusLineNC guifg=#FF0000 guibg=#CEC8F4 guisp=NONE blend=NONE gui=NON
 highlight StorageClass guifg=#B5AEE0 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight String guifg=#82B4E3 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Structure guifg=#B5AEE0 guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight TabLine guifg=#8D82BF guibg=#ECEAFA guisp=NONE blend=NONE gui=NONE
-highlight TabLineFill guifg=#8D82BF guibg=#ECEAFA guisp=NONE blend=NONE gui=NONE
+highlight TabLine guifg=#ECEAFA guibg=#FBF9F9 guisp=NONE blend=NONE gui=italic
+highlight TabLineFill guifg=#ECEAFA guibg=#FBF9F9 guisp=NONE blend=NONE gui=NONE
 highlight TabLineSel guifg=#8D82BF guibg=#FBF9F9 guisp=NONE blend=NONE gui=NONE
 highlight Tag guifg=#404040 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight TelescopeBorder guifg=#EEAABE guibg=#FBF9F9 guisp=NONE blend=NONE gui=NONE
