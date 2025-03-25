@@ -151,9 +151,9 @@ local theme = lush(function(injected_functions)
 		WhichKeyNormal(Normal),
 
 		-- tabline styles
-		TabLine({ fg = purpleDarkest, bg = purpleLight }),
+		TabLine({ fg = purpleLight, bg = background, cterm = "italic", gui = "italic" }),
 		TabLineSel({ fg = purpleDarkest, bg = background }),
-		TabLineFill({ fg = purpleDarkest, bg = purpleLight }),
+		TabLineFill({ fg = purpleLight, bg = background }),
 
 		-- mini.indentscope
 		MiniIndentscopeSymbol({ fg = purpleDefault }),
